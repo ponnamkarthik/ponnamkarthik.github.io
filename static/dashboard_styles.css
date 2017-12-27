@@ -64,12 +64,12 @@ html, body {
     font-weight: 500;
   }
   .link-layout .link-navigation .mdl-navigation__link:hover {
-    background-color: #00BCD4;
-    color: #37474F;
+    background-color: #ffffff !important;
+    color: #3E4D54 !important;
   }
   .link-navigation .mdl-navigation__link .material-icons {
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.56);
+    color: #3E4D54;
     margin-right: 32px;
   }
   
@@ -87,7 +87,7 @@ html, body {
   }
   .link-card-wide > .mdl-card__title {
     color: #fff;
-    background-color: #03A9F4;
+    background-color: #673AB7;
   }
   .link-card-wide > .mdl-card__menu {
     color: #fff;
@@ -97,3 +97,18 @@ html, body {
     background-color: #e0e0e0 !important;
     color: #ffffff !important;
 }
+
+.input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: #9C27B0 !important;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #9C27B0 !important;
+      box-shadow: none !important;
+    }
