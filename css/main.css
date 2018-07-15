@@ -1,0 +1,71 @@
+body {
+  background: url("../assets/img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+.half-container {
+    width: 50%;
+    height: 100%;
+    background: #00000050;
+    z-index: 100;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.main {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.main .name {
+    margin: auto;
+    font-size: 5rem;
+    font-style: bold;
+}
+
+.main .description {
+    font-size:  2rem;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    padding: 0px 15px
+}
+
+.icons-github:hover {
+    color: black;
+}
+.icons-medium:hover {
+    color: #00ab6c;
+}
+.icons-mail:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons-twitter:hover {
+    color: #1da1f2;
+}
+
+p {
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
