@@ -6,6 +6,7 @@ body {
   background-size: cover;
   margin: 0;
   min-width: 600px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .half-container {
