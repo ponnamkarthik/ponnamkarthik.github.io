@@ -8,6 +8,9 @@ body {
   min-width: 600px;
   font-family: 'Raleway', sans-serif;
 }
+.hidden-seo {
+  display: none;
+}
 
 .half-container {
   width: 50%;
