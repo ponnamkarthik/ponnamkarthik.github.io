@@ -10,20 +10,11 @@ module.exports = {
         twitter: '#1da1f2',
         linkedin: '#0077b5'
       },
-      filter: {
-        'none': 'none',
-        'blur': 'blur(20px)',
-      },
-      backdropFilter: {
-        'none': 'none',
-        'blur': 'blur(20px)',
-      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [
-    require('tailwindcss-filters'),
   ],
 }
