@@ -1,0 +1,20 @@
+{
+  "name": "profile-minimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "tailwindcss-filters": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  },
+  "scripts": {
+    "build": "tailwind build styles/tailwind.css -o styles/main.css",
+    "prodbuild": "NODE_ENV=production tailwind build styles/tailwind.css -o styles/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
